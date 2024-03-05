@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+.table-container {
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.table-container table {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.table-container th,
+.table-container td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Specific styling for table headings */
+.table-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
